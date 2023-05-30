@@ -28,6 +28,15 @@ project = 'Application Operations Management'
 otcdocs_repo_name = 'opentelekomcloud-docs/application-operations-management'
 # Those variables are required for edit/bug links
 
+# Those variables are needed for indexing into OpenSearch
+otcdocs_doc_environment = 'public'
+otcdocs_doc_link = '/application-operations-management/umn/'
+otcdocs_doc_title = 'User Guide'
+otcdocs_doc_type = 'umn'
+otcdocs_service_category = 'application'
+otcdocs_service_title = 'Application Operations Management'
+otcdocs_service_type = 'aom'
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
