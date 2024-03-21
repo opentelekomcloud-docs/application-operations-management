@@ -5,7 +5,7 @@
 Status Codes
 ============
 
-:ref:`Table 1 <aom_04_0018__table1722512133292>` describes the status codes.
+:ref:`Table 1 <aom_04_0018__table1722512133292>` describes status codes.
 
 .. _aom_04_0018__table1722512133292:
 

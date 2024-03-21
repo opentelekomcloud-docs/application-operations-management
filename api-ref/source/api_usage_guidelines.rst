@@ -1,6 +1,6 @@
-:original_name: aom_04_0000.html
+:original_name: en-us_topic_0000001409488734.html
 
-.. _aom_04_0000:
+.. _en-us_topic_0000001409488734:
 
 API Usage Guidelines
 ====================
@@ -10,3 +10,5 @@ Public cloud APIs comply with the RESTful API design principles. REST-based web 
 Public cloud APIs use HTTPS as the transmission protocol. Requests/Responses are transmitted using JSON messages, with the media type represented by **Application/json**.
 
 For details about how to use APIs, see `API Usage Guidelines <https://docs.otc.t-systems.com/en-us/api/apiug/apig-en-api-180328001.html>`__.
+
+For details about metric description, see **Metric Overview**\  in the \ *AOM User Guide*\ .

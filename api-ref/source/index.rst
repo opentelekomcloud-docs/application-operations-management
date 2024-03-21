@@ -6,6 +6,7 @@ Application Operations Management - API Reference
    :maxdepth: 1
 
    api_usage_guidelines
-   apis/index
+   api/index
+   permissions_policies_and_supported_actions/index
    appendix/index
    change_history
