@@ -5,7 +5,16 @@ Application Operations Management - User Guide
 .. toctree::
    :maxdepth: 1
 
-   introduction
-   user_guide/index
+   service_overview/index
+   getting_started/index
+   permissions_management/index
+   connecting_resources_to_aom/index
+   monitoring_overview/index
+   alarm_management/index
+   resource_monitoring/index
+   log_management/index
+   configuration_management/index
+   auditing/index
+   upgrading_to_aom_2.0
    faqs/index
    change_history
