@@ -44,7 +44,7 @@ Cluster Metrics and Dimensions
    +----------------------------------------------------------------------+------------------------------------------------------------------------+-------------+--------+
    | Uplink rate (BPS) (aom_cluster_network_transmit_bytes)               | Outbound traffic rate of a measured object                             | >= 0        | Byte/s |
    +----------------------------------------------------------------------+------------------------------------------------------------------------+-------------+--------+
-   | Total physical memory (aom_cluster_memory_total_megabyte)            | Total physical memory that has been applied for a measured object      | >= 0        | MB     |
+   | Total physical memory (aom_cluster_memory_total_megabytes)           | Total physical memory that has been applied for a measured object      | >= 0        | MB     |
    +----------------------------------------------------------------------+------------------------------------------------------------------------+-------------+--------+
    | Total virtual memory (aom_cluster_virtual_memory_total_megabytes)    | Total virtual memory that has been applied for a measured object       | >= 0        | MB     |
    +----------------------------------------------------------------------+------------------------------------------------------------------------+-------------+--------+

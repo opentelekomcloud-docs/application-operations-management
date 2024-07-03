@@ -10,18 +10,19 @@ AOM can collect and display VM logs. VM refers to an Elastic Cloud Server (ECS) 
 Prerequisites
 -------------
 
--  Ensure that your VMs are ECSs or BMSs running Linux.
 -  You have installed an ICAgent on a VM according to :ref:`Installing an ICAgent <aom_02_0012>`. Wait for about 5 minutes after the installation is complete. Then you can view the VM in the VM list on the **Path Configuration** page.
 
 Precautions
 -----------
 
+-  Ensure that your VMs are ECSs or BMSs running Linux.
 -  If you specify a directory, all **.log**, **.trace**, and **.out** text log files in this directory are collected by default. If you specify a log file, only this file is collected. The specified file must be a text file. Other types of log files, such as binary log files, cannot be collected.
 -  Ensure that an absolute path of a log directory or file is configured and the path exists. For example, **/opt/yilu/work/xig** or **/opt/yilu/work/xig/debug_cpu.log**.
 -  The ICAgent does not collect log files from subdirectories. For example, the ICAgent does not collect log files from the **/opt/yilu/work/xig/debug** subdirectory of **/opt/yilu/work/xig**.
 -  A maximum of 20 log collection paths can be configured for a VM.
 -  If the difference between the last modification time of a log file and the current time exceeds 12 hours, the log file will not be collected.
--  For ECSs in the same resource set, logs will be collected based on the latest log collection configuration. AOM and LTS log collection configurations cannot take effect at the same time. For example, if you configure log collection paths in AOM for ECSs, the previous LTS collection configurations of all ECSs under the resource set become invalid.
+-  For ECSs in the same resource set, logs will be collected based on the latest log collection configuration. AOM and LTS log collection configurations cannot take effect at the same time. For example, if you set log collection paths in AOM for ECSs, the previous LTS collection configurations of all ECSs under the resource set become invalid.
+-  When configuring the collection path of VM logs, do not use the log paths for mapping container service logs to VMs. Otherwise, the collected VM logs may be overwritten by container logs.
 
 Configuring Log Collection Paths for a Single VM Through the Console
 --------------------------------------------------------------------

@@ -20,26 +20,27 @@ Procedure
 
    .. table:: **Table 1** Parameters for creating an agency
 
-      +-----------------------+-------------------------------------------------+-----------------------+
-      | Parameter             | Description                                     | Example               |
-      +=======================+=================================================+=======================+
-      | Agency Name           | Set an agency name.                             | **apm_admin_trust**   |
-      |                       |                                                 |                       |
-      |                       | .. note::                                       |                       |
-      |                       |                                                 |                       |
-      |                       |    The agency name must be **apm_admin_trust**. |                       |
-      +-----------------------+-------------------------------------------------+-----------------------+
-      | Agency Type           | Select **Account**.                             | Common account        |
-      +-----------------------+-------------------------------------------------+-----------------------+
-      | Delegated Account     | Specify an account to delegate.                 | op_svc_apm            |
-      +-----------------------+-------------------------------------------------+-----------------------+
-      | Validity Period       | Select **Unlimited**.                           | **Unlimited**         |
-      +-----------------------+-------------------------------------------------+-----------------------+
-      | Description           | (Optional) Provide details about the agency.    | ``-``                 |
-      +-----------------------+-------------------------------------------------+-----------------------+
+      +-----------------------+-----------------------------------------------------+-----------------------+
+      | Parameter             | Description                                         | Example               |
+      +=======================+=====================================================+=======================+
+      | Agency Name           | Set an agency name.                                 | ``-``                 |
+      |                       |                                                     |                       |
+      |                       | .. important::                                      |                       |
+      |                       |                                                     |                       |
+      |                       |    NOTICE:                                          |                       |
+      |                       |    The agency name must be **apm_admin_trust**.     |                       |
+      +-----------------------+-----------------------------------------------------+-----------------------+
+      | Agency Type           | Select **Cloud service**.                           | Cloud service         |
+      +-----------------------+-----------------------------------------------------+-----------------------+
+      | Cloud Service         | Select **Application Operations Management (AOM)**. | ``-``                 |
+      +-----------------------+-----------------------------------------------------+-----------------------+
+      | Validity Period       | Select **Unlimited**.                               | Unlimited             |
+      +-----------------------+-----------------------------------------------------+-----------------------+
+      | Description           | (Optional) Provide details about the agency.        | ``-``                 |
+      +-----------------------+-----------------------------------------------------+-----------------------+
 
 #. On the **Permissions** area, click **Assign Permissions**.
 
-#. Add the following permissions: **DMS User** (or **DMS UserAccess**), **CCE Administrator**, and **ECS User** (or **ECS CommonOperations**), and select a region in **Project [Region]**.
+#. Select the **DMS UserAccess** permission, and select the projects where you want the configuration to take effect.
 
 #. Click **OK**.

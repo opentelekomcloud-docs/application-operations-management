@@ -14,7 +14,7 @@ Architecture Description
 
    -  Collecting data by using ICAgent
 
-      You can install the ICAgent (a plug-in data collector) on a host and use it to report O&M data.
+      You can install the ICAgent (a data collector) on a host and use it to report O&M data.
 
    -  Connecting data by using APIs
 
@@ -23,7 +23,7 @@ Architecture Description
 -  **Transmission and storage layer**
 
    -  Data transmission: AOM Access is a proxy for receiving O&M data. After O&M data is received, such data will be placed in the Kafka queue. Kafka then transmits the data to the service computing layer in real time based on its high-throughput capability.
-   -  Data storage: After being processed by the AOM backend, O&M data is written into a database. Cassandra stores sequential data, Redis is used for cache query, etcd stores AOM configuration data, and Elasticsearch stores resources, logs, alarms, and events.
+   -  Data storage: After being processed by the AOM backend, O&M data is written into databases. Cassandra stores metric data of time series, Redis is used for cache query, etcd stores AOM configuration data, and Elasticsearch stores resources, logs, alarms, and events.
 
 -  **Service computing layer**
 

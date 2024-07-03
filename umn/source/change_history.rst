@@ -10,7 +10,7 @@ Change History
    +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
    | Date                              | Description                                                                                                                   |
    +===================================+===============================================================================================================================+
-   | 2023-08-09                        | -  Added the following sections:                                                                                              |
+   | 2024-04-17                        | -  Added the following sections:                                                                                              |
    |                                   |                                                                                                                               |
    |                                   |    -  :ref:`Permissions Management <aom_02_0088>`                                                                             |
    |                                   |    -  :ref:`Creating a Static Threshold Template <aom_02_0063>`                                                               |
@@ -18,11 +18,15 @@ Change History
    |                                   |    -  :ref:`Quota Configuration <aom_02_008202>`                                                                              |
    |                                   |    -  :ref:`Metric Configuration <aom_02_008203>`                                                                             |
    |                                   |    -  :ref:`Data Subscription <aom_02_1013>`                                                                                  |
-   |                                   |    -  :ref:`Upgrading to AOM 2.0 <aom_02_0112>`                                                                               |
+   |                                   |    -  :ref:`Alarm Tags and Annotations <aom_02_0113>`                                                                         |
+   |                                   |    -  :ref:`Creating an Event Alarm Rule <aom_02_0061>`                                                                       |
+   |                                   |    -  :ref:`Alarm Action Rules <aom_02_0925>`                                                                                 |
+   |                                   |    -  :ref:`Alarm Noise Reduction <aom_02_0950>`                                                                              |
    |                                   |                                                                                                                               |
    |                                   | -  Optimized the following sections:                                                                                          |
    |                                   |                                                                                                                               |
    |                                   |    -  :ref:`O&M <aom_02_0041>`                                                                                                |
+   |                                   |    -  :ref:`Overview <aom_02_0062>`                                                                                           |
    |                                   |    -  :ref:`Creating a Threshold Rule <aom_02_0060>`                                                                          |
    |                                   |    -  :ref:`Metric Monitoring <aom_02_0017>`                                                                                  |
    |                                   |    -  :ref:`Setting the Log Quota <aom_02_0024>`                                                                              |
@@ -32,7 +36,7 @@ Change History
    |                                   |    -  :ref:`Permissions <aom_06_0021>`                                                                                        |
    |                                   |    -  :ref:`Operations Logged by CTS <aom_02_0115>`                                                                           |
    |                                   |                                                                                                                               |
-   |                                   | -  Added :ref:`Service Overview <aom_06_6000>`, :ref:`Getting Started <aom_05_0004>`, and :ref:`FAQs <aom_02_1101>` sections. |
+   |                                   | -  Added sections :ref:`Service Overview <aom_06_6000>`, :ref:`Getting Started <aom_05_0004>`, and :ref:`FAQs <aom_02_1101>`. |
    +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------+
    | 2022-09-29                        | Updated the document based on UAT comments:                                                                                   |
    |                                   |                                                                                                                               |

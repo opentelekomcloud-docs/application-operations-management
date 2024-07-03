@@ -5,7 +5,7 @@
 Creating a Threshold Rule
 =========================
 
-You can set threshold conditions for resource metrics by setting threshold rules. If a metric value meets the threshold condition, a threshold alarm will be generated. If no metric data is reported, an insufficient data event will be generated.
+You can set threshold conditions for resource metrics by setting threshold rules. If a metric value meets a threshold condition, a threshold alarm will be reported. If there is no metric data, an insufficient data event will be reported.
 
 Creation Methods
 ----------------
@@ -58,7 +58,9 @@ Directly Creating Threshold Rules
 
                Specifically, choose **Monitoring** > **Metric Monitoring** in the navigation pane. Then, click **Add Metric** and select **Dimension** or **Resource** for **Add By**. Select up to 12 metrics to monitor. Next, click |image3| in the **Operation** column. The system automatically switches to the threshold rule creation page and fills the Prometheus command for your metric.
 
-      #. Set an alarm condition. Click **Custom** and set information such as **Statistical Period**, **Consecutive Periods**, and **Threshold Criterion**. :ref:`Table 1 <aom_02_0060__en-us_topic_0263893548_table77001133203019>` describes the parameters.
+      #. .. _aom_02_0060__en-us_topic_0263893548_en-us_topic_0169698491_li171034217117:
+
+         Set an alarm condition. Click **Custom** and set information such as **Statistical Period**, **Consecutive Periods**, and **Threshold Criterion**. :ref:`Table 1 <aom_02_0060__en-us_topic_0263893548_table77001133203019>` describes the parameters.
 
          .. _aom_02_0060__en-us_topic_0263893548_table77001133203019:
 
@@ -94,9 +96,32 @@ Directly Creating Threshold Rules
 
             **Figure 1** Setting an alarm condition
 
-      #. Set alarm tags and annotations to group alarms.
+      #. Set alarm tags and annotations to group alarms. They can be associated with alarm noise reduction policies for sending alarm notifications. For details, see :ref:`Alarm Tags and Annotations <aom_02_0113>`.
 
          Click **Add Tag** or **Add Annotation**.
+
+   c. Set an alarm notification policy. There are two alarm notification modes.
+
+      -  **Direct Alarm Reporting**: An alarm is directly sent when the alarm condition is met.
+
+         #. Specify whether to enable an alarm action rule. After an alarm action rule is enabled, the system sends notifications based on the associated SMN topic and message template. If the existing alarm action rules cannot meet your requirements, click **Create Rule** to create one. For details, see :ref:`Creating an Alarm Action Rule <aom_02_0926>`.
+         #. After an alarm action rule is selected, specify whether to enable alarm clearance notification. After alarm clearance notification is enabled, if the alarm clearance condition set in :ref:`Advanced Settings > Alarm Clearance <aom_02_0060__en-us_topic_0263893548_en-us_topic_0169698491_li171034217117>` is met, alarm clearance notifications are sent based on the selected action rule.
+
+
+         .. figure:: /_static/images/en-us_image_0000001411933048.png
+            :alt: **Figure 2** Selecting the direct alarm reporting mode
+
+            **Figure 2** Selecting the direct alarm reporting mode
+
+      -  **Alarm Noise Reduction**: Alarms are sent only after being processed based on noise reduction rules, preventing alarm storms.
+
+         Select a grouping rule from the drop-down list. If existing grouping rules cannot meet your requirements, click **Create Rule** to create one. For details, see :ref:`Creating a Grouping Rule <aom_02_0952>`.
+
+
+         .. figure:: /_static/images/en-us_image_0000001413081586.png
+            :alt: **Figure 3** Selecting the alarm noise reduction mode
+
+            **Figure 3** Selecting the alarm noise reduction mode
 
 #. Click **Create Now**. As shown in the following figure, a threshold rule is created. Click |image4| to monitor the same metric of multiple resources.
 
@@ -104,9 +129,9 @@ Directly Creating Threshold Rules
 
 
    .. figure:: /_static/images/en-us_image_0000001582213732.png
-      :alt: **Figure 2** Creating a threshold rule
+      :alt: **Figure 4** Creating a threshold rule
 
-      **Figure 2** Creating a threshold rule
+      **Figure 4** Creating a threshold rule
 
 .. _aom_02_0060__en-us_topic_0263893548_en-us_topic_0169698491_section215851225919:
 
@@ -126,13 +151,15 @@ Before creating threshold rules, ensure that a static threshold template has bee
 
       #. Select monitored objects. When a template is used to create a threshold rule, you can select metrics only by dimension or resource. The command input mode is not supported.
 
-      #. Set an alarm condition. Click **Template**, select the created static threshold template from the drop-down list, and set parameters, such as **Alarm Clearance** and **Action Taken for Insufficient Data**.
+      #. .. _aom_02_0060__en-us_topic_0263893548_li1170713345318:
+
+         Set an alarm condition. Click **Template**, select the created static threshold template from the drop-down list, and set parameters, such as **Alarm Clearance** and **Action Taken for Insufficient Data**.
 
 
          .. figure:: /_static/images/en-us_image_0000001412105490.png
-            :alt: **Figure 3** Setting an alarm condition
+            :alt: **Figure 5** Setting an alarm condition
 
-            **Figure 3** Setting an alarm condition
+            **Figure 5** Setting an alarm condition
 
          .. table:: **Table 2** Alarm condition parameters
 
@@ -156,15 +183,38 @@ Before creating threshold rules, ensure that a static threshold template has bee
 
          Click **Add Tag** or **Add Annotation**.
 
+   c. Set an alarm notification policy. There are two alarm notification modes.
+
+      -  **Direct Alarm Reporting**: An alarm is directly sent when the alarm condition is met.
+
+         #. Specify whether to enable an alarm action rule. After an alarm action rule is enabled, the system sends notifications based on the associated SMN topic and message template. If the existing alarm action rules cannot meet your requirements, click **Create Rule** to create one. For details, see :ref:`Creating an Alarm Action Rule <aom_02_0926>`.
+         #. After an alarm action rule is selected, specify whether to enable alarm clearance notification. After alarm clearance notification is enabled, if the alarm clearance condition set in :ref:`Advanced Settings > Alarm Clearance <aom_02_0060__en-us_topic_0263893548_li1170713345318>` is met, alarm clearance notifications are sent based on the selected action rule.
+
+
+         .. figure:: /_static/images/en-us_image_0000001412589150.png
+            :alt: **Figure 6** Selecting the direct alarm reporting mode
+
+            **Figure 6** Selecting the direct alarm reporting mode
+
+      -  **Alarm Noise Reduction**: Alarms are sent only after being processed based on noise reduction rules, preventing alarm storms.
+
+         Select a grouping rule from the drop-down list. If existing grouping rules cannot meet your requirements, click **Create Rule** to create one. For details, see :ref:`Creating a Grouping Rule <aom_02_0952>`.
+
+
+         .. figure:: /_static/images/en-us_image_0000001413081586.png
+            :alt: **Figure 7** Selecting the alarm noise reduction mode
+
+            **Figure 7** Selecting the alarm noise reduction mode
+
 #. Click **Create Now**. As shown in the following figure, a threshold rule is created. Click |image5| to monitor the same metric of multiple resources.
 
    In the expanded list, if the metric data of a host meets the preset alarm condition, a threshold alarm is generated on the alarm page. To view the alarm, go to the AOM console and choose **Alarm Center** > **Alarm List** in the navigation pane.
 
 
    .. figure:: /_static/images/en-us_image_0000001582213732.png
-      :alt: **Figure 4** Creating a threshold rule
+      :alt: **Figure 8** Creating a threshold rule
 
-      **Figure 4** Creating a threshold rule
+      **Figure 8** Creating a threshold rule
 
 More Operations
 ---------------
