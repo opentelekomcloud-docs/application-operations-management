@@ -7,11 +7,11 @@ Permissions
 
 If you need to assign different permissions to employees in your enterprise to access your AOM resources, Identity and Access Management (IAM) is a good choice for fine-grained permissions management. IAM provides identity authentication, permissions management, and access control, helping you secure access to your AOM resources.
 
-With IAM, you can use your account to create IAM users for your employees, and assign permissions to the users to control their access to specific types of resources. For example, some software developers in your enterprise need to use AOM resources but must not delete them or perform any high-risk operations such as deleting application discovery rules. To achieve this result, you can create IAM users for the software developers and grant them only the permissions required for using AOM resources.
+With IAM, you can use your account to create IAM users for your employees, and assign permissions to the users to control their access to specific types of resources. For example, some software developers in your enterprise need to use AOM resources but are not allowed to delete them or perform any high-risk operations such as deleting application discovery rules. To achieve this result, you can create IAM users for the software developers and grant them only the permissions required for using AOM resources.
 
-If your account does not need individual IAM users for permissions management, you may skip over this chapter.
+If your cloud account does not need individual IAM users for permissions management, you may skip over this chapter.
 
-IAM can be used free of charge. You pay only for the resources in your account. For more information about IAM, see `IAM Service Overview <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0026.html>`__.
+IAM can be used free of charge. You pay only for the resources in your account. For more information about IAM, see IAM Service Overview\ `IAM Service Overview <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0026.html>`__.
 
 AOM Permissions
 ---------------
@@ -54,9 +54,6 @@ You can grant users permissions by using roles and policies.
    Creating a threshold template           Y         x
    Modifying a threshold template          Y         x
    Deleting a threshold template           Y         x
-   Creating a dashboard                    Y         x
-   Modifying a dashboard                   Y         x
-   Deleting a dashboard                    Y         x
    Creating an application discovery rule  Y         x
    Modifying an application discovery rule Y         x
    Deleting an application discovery rule  Y         x
@@ -74,7 +71,7 @@ You can grant users permissions by using roles and policies.
    Uninstalling the ICAgent                Y         x
    ======================================= ========= ==========
 
-To use a custom fine-grained policy, log in to IAM as the administrator and select fine-grained permissions of AOM as required. For details about fine-grained permissions of AOM, see :ref:`Table 3 <aom_06_0021__table13611192118526>`.
+To use a custom fine-grained policy, log in to IAM as the administrator and select fine-grained permissions of AOM as required. For details, see :ref:`Table 3 <aom_06_0021__table13611192118526>`
 
 .. _aom_06_0021__table13611192118526:
 

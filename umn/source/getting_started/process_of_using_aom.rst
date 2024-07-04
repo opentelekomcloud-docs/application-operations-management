@@ -25,7 +25,7 @@ Application Operations Management (AOM) is a one-stop cloud operations managemen
 
    An ICAgent is a collector of AOM. It collects metrics, logs, and application performance data in real time. For hosts created on the ECS or BMS console, install the ICAgent manually. For hosts created on the CCE console, the ICAgent is automatically installed.
 
-#. (Optional) Configure an application discovery rule.
+#. (Optional) Configure application discovery rules.
 
    Connect applications on the host to AOM for monitoring. For the applications that meet built-in application discovery rules, they will be automatically discovered after the ICAgent is installed. For those that do not meet built-in rules, custom your own rules.
 

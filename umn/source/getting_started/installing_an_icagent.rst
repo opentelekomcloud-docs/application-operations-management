@@ -24,23 +24,17 @@ Installing an ICAgent
 
 #. .. _aom_00_0003__li98461642151219:
 
-   On the page that is displayed, enter an AK/SK to generate an ICAgent installation command, and click **Copy Command** to copy the command for further use in :ref:`5 <aom_00_0003__li756312795411>`.
-
-   .. note::
-
-      Ensure that the AK/SK are correct. Otherwise, the ICAgent cannot be installed.
+   Click **Copy Command** to copy the installation command.
 
 #. Log in to the ECS remotely.
 
    Specifically, log in to the ECS console, click **Remote Login** in the **Operation** column of the target ECS, and then log in to the ECS as the **root** user.
 
-#. .. _aom_00_0003__li756312795411:
-
-   Run the ICAgent installation command.
+#. Run the ICAgent installation command.
 
    On the ECS page, click **Copy & Paste**. On the page that is displayed, press **Ctrl+V** to paste the ICAgent installation command obtained in :ref:`3 <aom_00_0003__li98461642151219>`, and click **Send** to send the command to the CLI, as shown in the following figure. In the CLI, press **Enter** to run the ICAgent installation command.
 
-   If the message "ICAgent install success" is displayed, the ICAgent is successfully installed in the **/opt/oss/servicemgr/** directory. After a while, return to the **Agent Management** page, select **Other: custom hosts**, and check whether the ICAgent status of the ECS is **Running**.
+   If the message "ICAgent install success" is displayed, the ICAgent is successfully installed in the **/opt/oss/servicemgr/** directory. Wait for a while and go back to the **Agent Management** page to check whether the ICAgent status of the ECS is **Running**.
 
    -  If the ICAgent status is **Running**, the ICAgent is successfully installed.
    -  If the ICAgent status is **Offline**, view details. The AK/SK or ECS agency may be incorrect. In this case, obtain the correct AK/SK or reconfigure the ECS agency, and then reinstall the ICAgent.

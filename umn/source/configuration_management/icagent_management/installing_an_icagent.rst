@@ -5,7 +5,7 @@
 Installing an ICAgent
 =====================
 
-ICAgent is used to collect metrics, logs, and application performance data. For servers that are directly purchased on the Elastic Cloud Server (ECS) or Bare Metal Server (BMS) console, manually install an ICAgent. For hosts purchased through Cloud Container Engine (CCE), an ICAgent is automatically installed.
+ICAgents collect metrics, logs, and application performance data in real time. For hosts purchased from the ECS or BMS console, you need to manually install the ICAgent. For hosts purchased from the CCE console, the ICAgent is automatically installed.
 
 .. note::
 
@@ -77,17 +77,15 @@ After you apply for a server and install an ICAgent for the first time, perform 
 
 #. In the navigation pane, choose **Configuration Management** > **Agent Management**.
 
-#. Select **Other: custom hosts**, click **Install ICAgent**.
+#. Select **Other: custom hosts**, and click **Install ICAgent**.
 
-#. (Optional) To prevent your AK/SK from being disclosed, select the check box shown in the following figure to disable historical record collection.
+#. Click **Copy Command** to copy the installation command.
 
+#. Use a remote login tool to log in to the target server as the **root** user, and run the following command to disable historical record collection:
 
-   .. figure:: /_static/images/en-us_image_0000001423571610.png
-      :alt: **Figure 1** Copying the ICAgent installation command
+   **set +o history**
 
-      **Figure 1** Copying the ICAgent installation command
-
-#. Generate the ICAgent installation command, and copy and run it to install an ICAgent.
+#. Run the copied installation command and enter the obtained AK and SK as prompted.
 
 #. After the ICAgent is installed, run the following command to enable historical record collection:
 

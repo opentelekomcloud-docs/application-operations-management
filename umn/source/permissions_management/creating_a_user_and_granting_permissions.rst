@@ -5,20 +5,20 @@
 Creating a User and Granting Permissions
 ========================================
 
-This chapter describes how to use `Identity and Access Management (IAM) <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0026.html>`__ for fine-grained permissions control for your Application Operations Management (AOM) resources. With IAM, you can:
+This chapter describes how to use `Identity and Access Management (IAM) <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0026.html>`__ for fine-grained permissions control for your AOM resources. With IAM, you can:
 
 -  Create IAM users for employees based on the organizational structure of your enterprise. Each IAM user has their own security credentials, providing access to AOM resources.
 -  Grant only the permissions required for users to perform a task.
--  Entrust an account or a cloud service to perform professional and efficient O&M on your AOM resources.
+-  Entrust a cloud account or service to perform professional and efficient O&M on your AOM resources.
 
-If your account does not need individual IAM users, then you may skip over this chapter.
+If your account does not need individual IAM users, then you may skip over this section.
 
 This section describes the procedure for granting permissions (see :ref:`Figure 1 <aom_02_0090__en-us_topic_0263893539_en-us_topic_0169701339_fig13279111625016>`).
 
 Prerequisites
 -------------
 
-Learn about the permissions supported by AOM and choose policies or roles according to your requirements. See `AOM Permissions <https://docs.otc.t-systems.com/usermanual/aom/aom_06_0021.html>`__. For the permissions of other services, see `Permission Description <https://docs.otc.t-systems.com/permissions/index.html>`__.
+Learn about the permissions (see `AOM Permissions <https://docs.otc.t-systems.com/usermanual/aom/aom_06_0021.html>`__) supported by AOM and choose policies or roles according to your requirements. For the permissions of other services, see `Permission Description <https://docs.otc.t-systems.com/permissions/index.html>`__.
 
 Process
 -------

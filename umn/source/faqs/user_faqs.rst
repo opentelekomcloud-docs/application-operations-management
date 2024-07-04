@@ -90,8 +90,3 @@ What Can I Do If the ICAgent Fails to Be Installed in the Windows Environment an
 .. note::
 
    In the Windows environment, manually add log collection paths. The ICAgent can collect **.log**, **.trace**, and **.out** files, but does not collect binary files or Windows system logs.
-
-What Can I Do If the ICAgent Is Successfully Installed on ECS but Its Status Is Abnormal on the Agent Management Page?
-----------------------------------------------------------------------------------------------------------------------
-
-The AK/SK is incorrect, or no agency is set when **Installation Mode** is set to **Create Agency**. Perform operations according to and install the ICAgent again.

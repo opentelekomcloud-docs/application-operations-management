@@ -41,4 +41,9 @@ You can create threshold rules for key resource metrics. When the metric value r
 Log Management
 --------------
 
-AOM provides powerful log management capabilities. Log search enables you to quickly search for required logs from massive quantities of logs. Log dump enables you to store logs for a long time. After you create statistical rules, AOM can periodically count keywords in logs and generate metric data, so that you can monitor system performance and services in real time. By configuring delimiters, you can divide log content into multiple words and use these words to search for logs.
+AOM provides powerful log management capabilities. Log search enables you to quickly search for required logs from massive quantities of logs. Log dump enables you to store logs for a long period. By configuring delimiters, you can divide log content into multiple words and use these words to search for logs.
+
+Metric Browsing
+---------------
+
+The **Metric Browsing** page displays metric data of each resource. You can monitor metric values and trends in real time, and create alarm rules for desired metrics. In this way, you can monitor services in real time and perform data correlation analysis.
