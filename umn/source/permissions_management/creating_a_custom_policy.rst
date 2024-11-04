@@ -12,7 +12,7 @@ You can create custom policies in either of the following two ways:
 -  Visual editor: Select cloud services, actions, resources, and request conditions. This does not require knowledge of policy syntax.
 -  JSON: Edit JSON policies from scratch or based on an existing policy.
 
-For details about how to create custom policies, see `Creating a Custom Policy <https://docs.otc.t-systems.com/usermanual/iam/en-us_topic_0274187246.html>`__. For example custom policies, see the following description.
+For details about how to create custom policies, see `Creating a Custom Policy <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0016.html>`__. For example custom policies, see the following description.
 
 Example Custom Policies
 -----------------------
