@@ -11,7 +11,7 @@ With IAM, you can use your account to create IAM users for your employees, and a
 
 If your cloud account does not need individual IAM users for permissions management, you may skip over this chapter.
 
-IAM can be used free of charge. You pay only for the resources in your account. For more information about IAM, see IAM Service Overview\ `IAM Service Overview <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0026.html>`__.
+IAM can be used free of charge. You pay only for the resources in your account. For more information about IAM, see `IAM Service Overview <https://docs.otc.t-systems.com/usermanual/iam/iam_01_0026.html>`__.
 
 AOM Permissions
 ---------------
@@ -59,12 +59,6 @@ You can grant users permissions by using roles and policies.
    Deleting an application discovery rule  Y         x
    Exporting a monitoring report           Y         Y
    Configuring a VM log collection path    Y         x
-   Viewing bucket logs                     Y         Y
-   Adding a log dump                       Y         x
-   Modifying a log dump                    Y         x
-   Deleting a log dump                     Y         x
-   Starting periodical dump                Y         x
-   Stopping periodical dump                Y         x
    Configuring a delimiter                 Y         x
    Installing the ICAgent                  Y         Y
    Upgrading the ICAgent                   Y         x
