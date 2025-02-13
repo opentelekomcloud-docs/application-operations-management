@@ -32,9 +32,9 @@ otcdocs_repo_name = 'opentelekomcloud-docs/application-operations-management'
 
 # Those variables are needed for indexing into OpenSearch
 otcdocs_doc_environment = 'public'
-otcdocs_doc_link = '/application-operations-management/api-ref/'
-otcdocs_doc_title = 'API Reference'
-otcdocs_doc_type = 'api-ref'
+otcdocs_doc_link = '/application-operations-management/umn2/'
+otcdocs_doc_title = 'User Guide 2.0'
+otcdocs_doc_type = 'umn2'
 otcdocs_service_category = 'application'
 otcdocs_service_title = 'Application Operations Management'
 otcdocs_service_type = 'aom'
@@ -94,7 +94,7 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 
-html_title = "Application Operations Management - API Reference"
+html_title = "Application Operations Management - User Guide 2.0"
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -109,8 +109,8 @@ html_copy_source = False
 # -- Options for PDF output --------------------------------------------------
 latex_documents = [
     ('index',
-     'aom-api-ref.tex',
-    u'Application Operations Management - API Reference',
+     'aom-umn2.tex',
+    u'Application Operations Management - User Guide 2.0',
      u'OpenTelekomCloud', 'manual'),
 ]
 
