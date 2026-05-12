@@ -15,5 +15,6 @@ Application Operations Management - User Guide
    log_management/index
    configuration_management/index
    auditing/index
+   upgrading_to_aom_2.0
    faqs/index
    change_history

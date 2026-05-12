@@ -5,7 +5,7 @@
 Metric Configuration
 ====================
 
-**Metric Collection** determines whether to collect metrics (excluding SLA and custom metrics).
+You can determine whether to enable **Metric Collection** to collect metrics (excluding SLA and custom metrics).
 
 Before enabling this function, ensure that you have installed the ICAgent on an Elastic Cloud Server (ECS) according to :ref:`Installing an ICAgent <aom_02_0012>`.
 
@@ -21,4 +21,4 @@ Before enabling this function, ensure that you have installed the ICAgent on an 
 
    .. note::
 
-      After the metric collection function is disabled, ICAgents will stop collecting metric data and related metric data will not be updated. However, custom metrics can still be reported.
+      After metric collection is disabled, ICAgents will stop collecting metric data and related metric data will not be updated. However, custom metrics can still be reported.
