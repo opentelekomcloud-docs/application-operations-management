@@ -5,7 +5,7 @@
 Host Monitoring
 ===============
 
-Hosts include the Elastic Cloud Server (ECS) and Bare Metal Server (BMS). AOM monitors the hosts purchased during Cloud Container Engine (CCE) cluster creation and those directly purchased. Ensure that hosts meet operating system (OS) and version requirements, and the ICAgent is installed on them according to :ref:`Installing an ICAgent <aom_02_0012>`. Otherwise, these hosts cannot be monitored by AOM. In addition, the hosts support both IPv4 and IPv6 addresses.
+Hosts include the Elastic Cloud Server (ECS) and Bare Metal Server (BMS). AOM monitors the hosts purchased during cluster creation on Cloud Container Engine (CCE) and those directly purchased. Ensure that hosts meet OS and version requirements, and the ICAgent is installed on them according to :ref:`Installing an ICAgent <aom_02_0012>`. Otherwise, these hosts cannot be monitored by AOM. In addition, the hosts support both IPv4 and IPv6 addresses.
 
 AOM monitors common system devices such as disks and file systems, and resource usage and health status of hosts and service processes or instances running on them.
 

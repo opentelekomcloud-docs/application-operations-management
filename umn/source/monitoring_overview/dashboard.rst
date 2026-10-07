@@ -16,7 +16,7 @@ Metric Data Graphs (Including Line and Digit Graphs)
 
 -  **Line graph**: displays the metric data trend by time. Use this type of graph to monitor the metric data trend of one or more resources in a period.
 
-   You can use a line graph to compare the same metric of different resources. The following figure shows the total CPU cores of different components.
+   You can use a line graph to compare the same metric of different resources.
 
 
    .. figure:: /_static/images/en-us_image_0000001411325438.png
@@ -25,8 +25,6 @@ Metric Data Graphs (Including Line and Digit Graphs)
       **Figure 1** Line graph
 
 -  **Digit graph**: displays the latest value of a metric in real time.
-
-   The following figure shows the average uplink rate (BPS) of a component.
 
 
    .. figure:: /_static/images/en-us_image_0000001461164845.png
@@ -72,7 +70,7 @@ Top N Resource Graphs
 
 For top N resource graphs, the statistical unit is a cluster and statistical objects are resources such as hosts, components, or instances in the cluster. A top N resource graph shows the top N resources in a cluster in a visualized manner. Both the top 5 and top 15 resources can be displayed. By default, the top 5 resources are displayed. After the graph is zoomed in, the top 15 resources are displayed.
 
-To quickly view the top N resources, add a top N graph to the dashboard. You only need to select resources and metrics, for example, host CPU usage. AOM then automatically singles out top N hosts for display. If the number of resources is less than N, actual resources are displayed. The following figure shows the top 5 hosts with the highest CPU usage.
+To quickly view the top N resources, add a top N graph to the dashboard. You only need to select resources and metrics, for example, host CPU usage. AOM then automatically singles out top N hosts for display. If the number of resources is less than N, actual resources are displayed. The following figure shows the five hosts with the highest CPU usage.
 
 
 .. figure:: /_static/images/en-us_image_0000001461287489.png
@@ -188,7 +186,7 @@ After creating a dashboard, perform the operations listed in :ref:`Table 1 <aom_
    +-----------------------+-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    |                       | Delete                              |                                                                                                                                                                                                                                                                                                                                                                                                                    |
    +-----------------------+-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   |                       | Zoom in                             |                                                                                                                                                                                                                                                                                                                                                                                                                    |
+   |                       | View larger                         |                                                                                                                                                                                                                                                                                                                                                                                                                    |
    +-----------------------+-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    |                       | Time select                         |                                                                                                                                                                                                                                                                                                                                                                                                                    |
    +-----------------------+-------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+

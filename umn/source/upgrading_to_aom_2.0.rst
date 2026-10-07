@@ -12,7 +12,7 @@ Introduction
 
 -  :ref:`Collector Upgrade <aom_02_0112__en-us_topic_0000001632043553_section1967411301414>`
 
-   After the upgrade, the process discovery capability is enhanced and the collector can automatically adapt to functions related to CMDB, and monitoring center.
+   After the upgrade, the process discovery capability is enhanced and the collector can automatically adapt to functions related to the monitoring center.
 
 -  :ref:`Alarm Rule Upgrade <aom_02_0112__en-us_topic_0000001632043553_section19675181391416>`
 

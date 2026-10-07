@@ -17,7 +17,7 @@ To ensure better collection experience, AOM will continuously upgrade ICAgent ve
 
    Select **Cluster: xxx** or **Other: custom hosts** from the drop-down list on the right of the page.
 
-#. Upgrade the ICAgent. If you select **Cluster: xxx** in :ref:`2 <aom_02_0013__en-us_topic_0263893453_lf53afe92b28749b8be5a3ee0491c691a>`, directly click **Upgrade ICAgent**. In this way, the ICAgent on all hosts in the cluster can be upgraded at one time. If you select **Other: custom hosts** in :ref:`2 <aom_02_0013__en-us_topic_0263893453_lf53afe92b28749b8be5a3ee0491c691a>`, select a desired host and then click **Upgrade ICAgent**.
+#. Upgrade the ICAgent. If you select **Cluster: xxx** in :ref:`2 <aom_02_0013__en-us_topic_0263893453_lf53afe92b28749b8be5a3ee0491c691a>`, click **Upgrade ICAgent**. Then all ICAgents on the hosts in the cluster are upgraded at a time. If you select **Other: custom hosts** in :ref:`2 <aom_02_0013__en-us_topic_0263893453_lf53afe92b28749b8be5a3ee0491c691a>`, select a desired host and then click **Upgrade ICAgent**.
 
 #. The upgrade takes about 1 minute to complete. When the ICAgent status changes from **Updating** to **Running**, the ICAgent has been upgraded.
 

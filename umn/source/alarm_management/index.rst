@@ -6,8 +6,8 @@ Alarm Management
 ================
 
 -  :ref:`Alarm Rules <aom_02_0037>`
--  :ref:`Viewing Alarms <aom_02_0004>`
--  :ref:`Viewing Events <aom_02_0045>`
+-  :ref:`Checking Alarms <aom_02_0004>`
+-  :ref:`Checking Events <aom_02_0045>`
 -  :ref:`Alarm Action Rules <aom_02_0925>`
 -  :ref:`Alarm Noise Reduction <aom_02_0950>`
 
@@ -16,7 +16,7 @@ Alarm Management
    :hidden: 
 
    alarm_rules/index
-   viewing_alarms
-   viewing_events
+   checking_alarms
+   checking_events
    alarm_action_rules/index
    alarm_noise_reduction/index

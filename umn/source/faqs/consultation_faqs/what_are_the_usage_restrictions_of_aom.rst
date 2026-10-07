@@ -118,15 +118,3 @@ When using AOM, learn about the restrictions in :ref:`Table 2 <aom_03_0002__aom_
    +-----------------------+-----------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | ``-``                 | Application discovery rule                                            | You can create a maximum of 100 application discovery rules.                                                                                                                                                                                                                                                                                                     |
    +-----------------------+-----------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-Service Usage Restrictions
---------------------------
-
-If the AMS-Access service is powered off or restarted unexpectedly when you use AOM, a metric data breakpoint occurs on some resources such as hosts, components, and containers in a collection period. This breakpoint is visible on the monitoring page and has no impacts. To avoid breakpoints in a metric graph, set the value of **Interpolation Mode** to **0** or **average** on the **Metric Monitoring** page. In this way, the system automatically replaces breakpoints with **0** or average values, as shown in :ref:`Figure 1 <aom_03_0002__aom_06_0001_fig351220287148>`.
-
-.. _aom_03_0002__aom_06_0001_fig351220287148:
-
-.. figure:: /_static/images/en-us_image_0000001167553061.png
-   :alt: **Figure 1** Changing the interpolation mode
-
-   **Figure 1** Changing the interpolation mode
