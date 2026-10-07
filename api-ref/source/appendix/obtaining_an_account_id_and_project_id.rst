@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0000001409328750.html
+:original_name: aom_04_0070.html
 
-.. _en-us_topic_0000001409328750:
+.. _aom_04_0070:
 
 Obtaining an Account ID and Project ID
 ======================================

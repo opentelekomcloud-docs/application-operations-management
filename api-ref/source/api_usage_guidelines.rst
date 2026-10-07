@@ -1,6 +1,6 @@
-:original_name: en-us_topic_0000001409488734.html
+:original_name: aom_04_0000.html
 
-.. _en-us_topic_0000001409488734:
+.. _aom_04_0000:
 
 API Usage Guidelines
 ====================

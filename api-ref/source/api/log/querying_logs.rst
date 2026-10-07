@@ -62,11 +62,8 @@ Request Parameters
    | keyWord         | No              | String                                                    | Keyword for search.                                                                                                                                                                                                                  |
    |                 |                 |                                                           |                                                                                                                                                                                                                                      |
    |                 |                 |                                                           | #. Exact search by keyword is supported. A keyword is between two adjacent delimiters.                                                                                                                                               |
-   |                 |                 |                                                           |                                                                                                                                                                                                                                      |
    |                 |                 |                                                           | #. Fuzzy search by keyword is supported. Example: RROR, ERRO?, *ROR*, ERR*, or ER*OR.                                                                                                                                                |
-   |                 |                 |                                                           |                                                                                                                                                                                                                                      |
    |                 |                 |                                                           | #. Exact search by phrase is supported. Example: Start to refresh alm Statistic.                                                                                                                                                     |
-   |                 |                 |                                                           |                                                                                                                                                                                                                                      |
    |                 |                 |                                                           | #. Search using AND (&&) or OR (||) is supported. Example: query&&logs or query||logs. Note: Default delimiters: , ``'";=()[]{}@&<>/:\``\ n\\t\\r                                                                                    |
    +-----------------+-----------------+-----------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | lineNum         | No              | String                                                    | Sequence number of the final log in the last query result. This parameter is not required for the first query, but is required for subsequent pagination queries.                                                                    |
@@ -192,9 +189,7 @@ Example Requests
 -  Example 2: Perform pagination queries. Notes:
 
    #. For pagination queries, the lineNum (sequence number of the final log in the last query result), type (value: next), and size parameters need to be added.
-
    #. The values of category, searchKey, keyWord, startTime, and endTime must be the same as those in the first query.
-
    #. To implement another pagination query, change the value of lineNum to the sequence number of the final log in the last query result. The rest may be deduced by analogy.
 
    .. code-block::
@@ -233,6 +228,7 @@ OK: The request is successful.
          "category" : "apx",
          "clusterId" : "c6xxxx7c-54cd-11e8-8055-025xxx1e40",
          "collectTime" : 153900000983,
+         "time" : 153900000983,
          "containerName" : "contsssner-0",
          "hostIP" : "1xx.xxx.0.1xxx",
          "hostId" : "c11xxxxx11-0000b-4925-bef4-d0xxxx9b0",
