@@ -15,6 +15,7 @@ There are two creation methods: :ref:`Directly Creating Threshold Rules <aom_02_
 Precautions
 -----------
 
+-  If you need AOM to send email or SMS notifications when the threshold rule status (**Exceeded**, **Normal**, **Insufficient**, or **Disabled**) changes, set an alarm action rule according to :ref:`Creating an Alarm Action Rule <aom_02_0926>`.
 -  If you use a threshold rule to monitor the same metric of multiple resources in batches, pay attention to the following:
 
    -  If the metric status of a resource is **Exceeded**, the status of the threshold rule is also **Exceeded**.
@@ -123,7 +124,7 @@ Directly Creating Threshold Rules
 
             **Figure 3** Selecting the alarm noise reduction mode
 
-#. Click **Create Now**. As shown in the following figure, a threshold rule is created. Click |image4| to monitor the same metric of multiple resources.
+#. Click **Create Now**. A threshold rule is created. Click |image4| to monitor the same metric of multiple resources.
 
    In the expanded list, if the metric data of a host meets the preset alarm condition, a threshold alarm is generated on the alarm page. To view the alarm, go to the AOM console and choose **Alarm Center** > **Alarm List** in the navigation pane.
 
@@ -206,7 +207,7 @@ Before creating threshold rules, ensure that a static threshold template has bee
 
             **Figure 7** Selecting the alarm noise reduction mode
 
-#. Click **Create Now**. As shown in the following figure, a threshold rule is created. Click |image5| to monitor the same metric of multiple resources.
+#. Click **Create Now**. A threshold rule is created. Click |image5| to monitor the same metric of multiple resources.
 
    In the expanded list, if the metric data of a host meets the preset alarm condition, a threshold alarm is generated on the alarm page. To view the alarm, go to the AOM console and choose **Alarm Center** > **Alarm List** in the navigation pane.
 

@@ -5,4 +5,6 @@
 Service Metrics and Dimensions
 ==============================
 
-Service metrics consist of instance metrics. The dimensions of service metrics are the same as those of instance metrics. For details, see :ref:`Instance Metrics and Dimensions <aom_06_0020>`.
+Service metrics consist of instance metrics. The dimensions of service metrics are the same as those of instance metrics.
+
+:ref:`Instance Metrics and Dimensions <aom_06_0020>`

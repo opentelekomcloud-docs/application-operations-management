@@ -31,7 +31,7 @@ IAM can implement authentication and fine-grained authorization for AOM.
 Cloud Eye
 ---------
 
-Cloud Eye provides a multi-dimensional monitoring platform for resources such as Elastic Cloud Server (ECS) and bandwidth. With Cloud Eye, you can view the resource usage and service running status in the cloud, and respond to exceptions in a timely manner to ensure that services run smoothly.
+Cloud Eye provides a multi-dimensional monitoring platform for resources such as Elastic Cloud Server (ECS)/bandwidth. With Cloud Eye, you can view the resource usage and service running status in the cloud, and respond to exceptions in a timely manner to ensure that services run smoothly.
 
 VPC
 ---
@@ -70,13 +70,13 @@ You can monitor basic resources, applications, logs, and alarms about FunctionGr
 ECS
 ---
 
-ECS is a computing server consisting of the CPU, memory, image, and Elastic Volume Service (EVS) disk. It supports on-demand allocation and auto scaling. ECSs integrate VPC, virtual firewall, and multi-data-copy capabilities to create an efficient, reliable, and secure computing environment. This ensures stable and uninterrupted running of services. After creating an ECS server, you can use it like using your local computer or physical server.
+ECS is a computing server consisting of the CPU, memory, image, and Elastic Volume Service (EVS) disk. It supports on-demand allocation and auto scaling. ECSs integrate VPC, virtual firewall, and multi-data-copy capabilities to create an efficient, reliable, and secure computing environment. This ensures stable and uninterrupted running of services. After creating an ECS, you can use it like using your local computer or physical server.
 
-When purchasing an ECS, ensure that its OS meets the requirements in :ref:`Table 1 <aom_06_0001__table710152410321>`. In addition, install an ICAgent on the ECS. Otherwise, the ECS cannot be monitored by AOM. You can monitor basic resources, applications, logs, and alarms about this ECS on the AOM console.
+When purchasing an ECS, ensure that its OS meets the requirements in :ref:`Table 1 <aom_06_0001__table710152410321>`. In addition, install an ICAgent on the purchased ECS. Otherwise, it cannot be monitored by AOM. You can monitor basic resources, applications, logs, and alarms about this ECS on the AOM console.
 
 BMS
 ---
 
 Bare Metal Server (BMS) is a dedicated physical server in the cloud. It provides high-performance computing and ensures data security for core databases, key application systems, and big data. With the advantage of scalable cloud resources, you can apply for BMS servers flexibly and they are billed on a pay-per-use basis.
 
-When purchasing a BMS server, ensure that its OS meets the requirements in :ref:`Table 1 <aom_06_0001__table710152410321>`. In addition, install an ICAgent on the server. Otherwise, the server cannot be monitored by AOM. You can monitor basic resources, applications, logs, and alarms about this server on the AOM console.
+When purchasing a BMS server, ensure that its OS meets the requirements in :ref:`Table 1 <aom_06_0001__table710152410321>`. In addition, install an ICAgent on the purchased server. Otherwise, the server cannot be monitored by AOM. You can monitor basic resources, applications, logs, and alarms about this server on the AOM console.

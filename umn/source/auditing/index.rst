@@ -6,11 +6,11 @@ Auditing
 ========
 
 -  :ref:`Operations Logged by CTS <aom_02_0115>`
--  :ref:`Querying Real-Time Traces <aom_02_0116>`
+-  :ref:`Viewing CTS Traces in the Trace List <aom_02_0116>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
    operations_logged_by_cts
-   querying_real-time_traces
+   viewing_cts_traces_in_the_trace_list

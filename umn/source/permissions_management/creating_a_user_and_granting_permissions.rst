@@ -18,7 +18,7 @@ This section describes the procedure for granting permissions (see :ref:`Figure 
 Prerequisites
 -------------
 
-Learn about the permissions (see `AOM Permissions <https://docs.otc.t-systems.com/usermanual/aom/aom_06_0021.html>`__) supported by AOM and choose policies or roles according to your requirements. For the permissions of other services, see `Permission Description <https://docs.otc.t-systems.com/permissions/index.html>`__.
+Learn about the permissions supported by AOM and choose policies or roles according to your requirements. See `AOM Permissions <https://docs.otc.t-systems.com/usermanual/aom/aom_06_0021.html>`__. For the permissions of other services, see `Permission Description <https://docs.otc.t-systems.com/permissions/index.html>`__.
 
 Process
 -------

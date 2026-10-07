@@ -15,7 +15,7 @@ Viewing Log Files
 
 #. On the page that is displayed, click the **Component** or **Host** tab and click a component or host name. Information such as the log file name and latest written time is displayed in the log file list on the right.
 
-#. Click **View** in the **Operation** column of the desired instance. :ref:`Table 1 <aom_02_0010__en-us_topic_0263893505_table108124216110>` describes how to view log file details. :ref:`Figure 1 <aom_02_0010__en-us_topic_0263893505_fig12644152135813>` shows log file details.
+#. Click **View** in the **Operation** column of the desired instance. :ref:`Table 1 <aom_02_0010__en-us_topic_0263893505_table108124216110>` describes how to check log file details. :ref:`Figure 1 <aom_02_0010__en-us_topic_0263893505_fig12644152135813>` shows log file details.
 
    .. _aom_02_0010__en-us_topic_0263893505_table108124216110:
 
