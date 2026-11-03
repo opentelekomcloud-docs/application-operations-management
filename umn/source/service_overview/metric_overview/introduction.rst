@@ -11,7 +11,7 @@ Metrics reflect resource performance data or status. A metric consists of a :ref
 -  Custom metrics: user-defined metrics. Custom metrics can be reported using the following methods:
 
    -  Method 1: Use AOM APIs. For details, see "Adding Monitoring Data" and "Querying Monitoring Data" in the *Application Operations Management (AOM) API Reference*.
-   -  Method 2: When creating containerized applications on CCE, interconnect with Prometheus to report custom metrics. For details, see "Custom Monitoring" in *Cloud Container Engine (CCE) User Guide*.
+   -  Method 2: When creating containerized applications on CCE, interconnect with Prometheus to report custom metrics. For details, see "Monitoring Custom Metrics on AOM" in *Cloud Container Engine (CCE) User Guide*.
 
 .. _aom_06_0014__section15138195111105:
 

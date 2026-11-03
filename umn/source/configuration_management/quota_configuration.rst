@@ -5,10 +5,16 @@
 Quota Configuration
 ===================
 
+#. Log in to the AOM console.
 
-.. figure:: /_static/images/en-us_image_0000001461515217.png
-   :alt: **Figure 1** Quota configuration
+#. Choose **Configuration Management** > **Quota Configuration**.
 
-   **Figure 1** Quota configuration
+#. Check the metric quota.
 
-Earlier metrics will be deleted when the metric quota is exceeded.
+
+   .. figure:: /_static/images/en-us_image_0000002002589489.png
+      :alt: **Figure 1** Checking the quota
+
+      **Figure 1** Checking the quota
+
+   Earlier metrics will be deleted when the metric quota is exceeded.

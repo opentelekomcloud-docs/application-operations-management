@@ -5,14 +5,16 @@
 Uninstalling the ICAgent
 ========================
 
-If the ICAgent on a server is uninstalled, server O&M will be affected, making AOM functions unavailable. Exercise caution when performing this operation.
-
 You can uninstall the ICAgent using either of the following methods:
 
 -  :ref:`Uninstalling the ICAgent on the AOM Console <aom_02_0014__en-us_topic_0263893549_section13185626133716>`: applies to the scenario where the ICAgent has been installed and needs to be uninstalled.
 -  :ref:`Uninstalling the ICAgent by Logging In to the Server <aom_02_0014__en-us_topic_0263893549_section1218782615374>`: applies to the scenario where the ICAgent fails to be installed and needs to be uninstalled.
 -  :ref:`Remotely Uninstalling the ICAgent <aom_02_0014__en-us_topic_0263893549_section76581424194316>`: applies to the scenario where the ICAgent has been installed and needs to be remotely uninstalled.
 -  :ref:`Uninstalling the ICAgent in Batches <aom_02_0014__en-us_topic_0263893549_section19497111135712>`: applies to the scenario where the ICAgent has been installed and needs to be uninstalled in batches.
+
+.. caution::
+
+   If the ICAgent is uninstalled from a server, AOM will not collect metrics from the server. Exercise caution when performing this operation.
 
 .. _aom_02_0014__en-us_topic_0263893549_section13185626133716:
 

@@ -54,11 +54,35 @@ You can grant users permissions by using roles and policies.
    Creating a threshold template           Y         x
    Modifying a threshold template          Y         x
    Deleting a threshold template           Y         x
+   Creating a dashboard                    Y         x
+   Modifying a dashboard                   Y         x
+   Deleting a dashboard                    Y         x
+   Creating an alarm action rule           Y         x
+   Modifying an alarm action rule          Y         x
+   Deleting an alarm action rule           Y         x
+   Creating a message template             Y         x
+   Modifying a message template            Y         x
+   Deleting a message template             Y         x
+   Creating a grouping rule                Y         x
+   Modifying a grouping rule               Y         x
+   Deleting a grouping rule                Y         x
+   Creating a suppression rule             Y         x
+   Modifying a suppression rule            Y         x
+   Deleting a suppression rule             Y         x
+   Creating a silence rule                 Y         x
+   Modifying a silence rule                Y         x
+   Deleting a silence rule                 Y         x
    Creating an application discovery rule  Y         x
    Modifying an application discovery rule Y         x
    Deleting an application discovery rule  Y         x
    Exporting a monitoring report           Y         Y
    Configuring a VM log collection path    Y         x
+   Viewing bucket logs                     Y         Y
+   Adding a log dump                       Y         x
+   Modifying a log dump                    Y         x
+   Deleting a log dump                     Y         x
+   Starting periodical dump                Y         x
+   Stopping periodical dump                Y         x
    Configuring a delimiter                 Y         x
    Installing the ICAgent                  Y         Y
    Upgrading the ICAgent                   Y         x

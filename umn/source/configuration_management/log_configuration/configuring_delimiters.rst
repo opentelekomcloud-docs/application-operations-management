@@ -32,7 +32,7 @@ Procedure
 
 #. Preview the log content.
 
-   Enter the log content to be previewed in the text box and click **Preview**. For example, if the comma (,) and brackets ([]) are used as delimiters, the preview effect is as follows:
+   Enter the log content to be previewed in the text box and click **Preview**.
 
 
    .. figure:: /_static/images/en-us_image_0000001461515245.png

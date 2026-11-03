@@ -16,7 +16,7 @@ Prerequisites
 Installation Methods
 --------------------
 
-There are two methods to install an ICAgent. Note that the two methods are not applicable to container nodes created using CCE. For container nodes, you do not need to manually install an ICAgent. Instead, you only need to perform certain operations when creating clusters or deploying applications.
+There are two methods to install an ICAgent. Note that the two methods are not applicable to container nodes created through CCE. For container nodes, you do not need to manually install an ICAgent. Instead, you only need to perform certain operations when creating clusters or deploying applications.
 
 For details, see :ref:`Table 1 <aom_02_002301__en-us_topic_0263893622_td567fa2f6ccc421ca2e6a4b8a51ee8c6>`.
 
@@ -46,7 +46,7 @@ After you apply for a server and install an ICAgent for the first time, perform 
 #. Obtain an Access Key ID/Secret Access Key (AK/SK).
 
    -  If you have obtained the AK/SK, skip this step.
-   -  If you have not obtained an AK/SK, :ref:`obtain them first <aom_03_0015>`.
+   -  If you have not obtained an AK/SK, :ref:`obtain them first <aom_02_1100>`.
 
 #. In the navigation pane, choose **Configuration Management** > **Agent Management**.
 

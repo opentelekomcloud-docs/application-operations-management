@@ -37,7 +37,7 @@ AOM supports log collection, search, analysis, download, and dump. It also repor
 Alarms
 ------
 
-Alarms are reported when AOM or an external service such as or Cloud Container Engine (CCE) is abnormal or may cause exceptions. Alarms will cause service exceptions and need to be handled.
+Alarms are reported when AOM or an external service (such as Cloud Container Engine (CCE)) is abnormal or may cause exceptions. Alarms will cause service exceptions and need to be handled.
 
 There are two alarm clearance modes:
 
@@ -47,4 +47,4 @@ There are two alarm clearance modes:
 Events
 ------
 
-Events generally carry some important information. They are reported when AOM or an external service, such as or CCE encounters some changes. Such changes do not necessarily cause service exceptions. Events do not need to be handled.
+Events generally carry some important information. They are reported when AOM or an external service (such as CCE) encounters some changes. Such changes do not necessarily cause service exceptions. Events do not need to be handled.

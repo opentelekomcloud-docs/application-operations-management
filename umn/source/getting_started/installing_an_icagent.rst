@@ -11,7 +11,7 @@ Prerequisites
 -------------
 
 -  You have created an ECS.
--  You have :ref:`obtained an AK/SK <aom_03_0015>`.
+-  You have :ref:`obtained an AK/SK <aom_02_1100>`.
 -  The time of the local browser must be consistent with that of the ECS.
 
 
@@ -32,7 +32,7 @@ Installing an ICAgent
 
 #. Run the ICAgent installation command.
 
-   On the ECS page, click **Copy & Paste**. On the page that is displayed, press **Ctrl+V** to paste the ICAgent installation command obtained in :ref:`3 <aom_00_0003__li98461642151219>`, and click **Send** to send the command to the CLI, as shown in the following figure. In the CLI, press **Enter** to run the ICAgent installation command.
+   On the ECS page, click **Copy & Paste**. On the **Copy & Paste** page that is displayed, press **Ctrl+V** to paste the ICAgent installation command obtained in :ref:`3 <aom_00_0003__li98461642151219>`, and click **Send** to send the command to the CLI. In the CLI, press **Enter** to run the ICAgent installation command.
 
    If the message "ICAgent install success" is displayed, the ICAgent is successfully installed in the **/opt/oss/servicemgr/** directory. Wait for a while and go back to the **Agent Management** page to check whether the ICAgent status of the ECS is **Running**.
 

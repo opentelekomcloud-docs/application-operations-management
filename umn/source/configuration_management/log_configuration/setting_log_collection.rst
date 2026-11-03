@@ -16,13 +16,14 @@ Before enabling this function, ensure that you have installed the ICAgent on an 
 
 #. Enable or disable log collection.
 
+   The log collection function is enabled by default. If you do not need to collect logs, disable this function to reduce resource usage.
+
+   .. caution::
+
+      If the log collection function is disabled on the AOM console, ICAgent will stop collecting logs and this function will also be disabled on the LTS console. Exercise caution when performing this operation.
+
 
    .. figure:: /_static/images/en-us_image_0000001462420845.png
       :alt: **Figure 1** Configuring log collection
 
       **Figure 1** Configuring log collection
-
-   .. note::
-
-      -  The log collection function is enabled by default. If you do not need to collect logs, disable this function to reduce resource usage.
-      -  After the log collection function is disabled, ICAgents will stop collecting logs, and this function on the LTS console will also be disabled.

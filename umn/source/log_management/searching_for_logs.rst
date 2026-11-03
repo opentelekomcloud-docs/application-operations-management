@@ -55,7 +55,7 @@ AOM enables you to quickly query logs, and locate faults based on log sources an
 
    Logs are sorted according to the order set in :ref:`3 <aom_02_0009__en-us_topic_0263893558_li34212241>` and a maximum of 5000 logs can be exported. For example, when 6000 logs in the search result are sorted in descending order, only the first 5000 logs can be exported.
 
-   Logs can be exported in CSV or TXT format. You can select a format as required. If you select the CSV format, detailed information (such as log content, host IP address, and source) can be exported, as shown in :ref:`Figure 1 <aom_02_0009__en-us_topic_0263893558_fig1785710409496>`. If you select the TXT format, only log content can be exported, as shown in :ref:`Figure 2 <aom_02_0009__en-us_topic_0263893558_fig74285517415>`. Each row represents a log. If a log contains a large amount of content, you are advised to view the log using a text editor.
+   Logs can be exported in CSV or TXT format. You can select a format as required. If you select the CSV format, detailed information (such as log content, host IP address, and source) can be exported, as shown in :ref:`Figure 1 <aom_02_0009__en-us_topic_0263893558_fig1785710409496>`. If you select the TXT format, only log content can be exported, as shown in :ref:`Figure 2 <aom_02_0009__en-us_topic_0263893558_fig74285517415>`. Each row represents a log. If a log contains a large amount of content, you are advised to check the log using a text editor.
 
    .. _aom_02_0009__en-us_topic_0263893558_fig1785710409496:
 

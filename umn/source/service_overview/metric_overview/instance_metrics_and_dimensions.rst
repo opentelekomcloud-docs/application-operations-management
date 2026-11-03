@@ -5,4 +5,7 @@
 Instance Metrics and Dimensions
 ===============================
 
-Instance metrics consist of container or process metrics. The dimensions of instance metrics are the same as those of container or process metrics. For details, see :ref:`Container Metrics and Dimensions <aom_06_0018>` and :ref:`VM Metrics and Dimensions <aom_06_0019>`.
+Instance metrics consist of container or process metrics. The dimensions of instance metrics are the same as those of container or process metrics.
+
+-  :ref:`Container Metrics and Dimensions <aom_06_0018>`
+-  :ref:`VM Metrics and Dimensions <aom_06_0019>`

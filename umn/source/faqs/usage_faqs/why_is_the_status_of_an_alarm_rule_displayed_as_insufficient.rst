@@ -5,13 +5,13 @@
 Why Is the Status of an Alarm Rule Displayed as "Insufficient"?
 ===============================================================
 
-When you create an alarm rule for a resource, its data reported to AOM may be insufficient, as shown in the following figure.
+When you create an alarm rule for a resource, its data reported to AOM may be insufficient.
 
 
 .. figure:: /_static/images/en-us_image_0000001412030430.png
-   :alt: **Figure 1** Viewing the rule status
+   :alt: **Figure 1** Checking the rule status
 
-   **Figure 1** Viewing the rule status
+   **Figure 1** Checking the rule status
 
 Possible causes:
 

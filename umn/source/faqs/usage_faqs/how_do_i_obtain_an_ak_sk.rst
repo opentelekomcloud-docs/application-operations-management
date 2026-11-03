@@ -1,6 +1,6 @@
-:original_name: aom_03_0015.html
+:original_name: aom_02_1100.html
 
-.. _aom_03_0015:
+.. _aom_02_1100:
 
 How Do I Obtain an AK/SK?
 =========================
@@ -17,7 +17,7 @@ Procedure
 
 #. On the **My Credentials** page, click the **Access Keys** tab.
 
-#. Click **Create Access Key** above the list, and enter the verification code or password.
+#. Click **Create Access Key** above the list and enter the verification code and password.
 
 #. Click **OK** to download the generated AK/SK.
 
